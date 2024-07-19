@@ -259,6 +259,10 @@ def predictYear(model, year, scenario, df_dat, path_,
 # -------------------------------------- #
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
+    # Read the scaler
+    scaler_feats = joblib.load(args.scaler_feats)
+    scaler = joblib.load(args.scaler_target)
+    
     path_ = args.path_data
     os.chdir(path_)
     # Available CMIP6 model datasets
@@ -282,9 +286,6 @@ if __name__ == "__main__":
     # Feature set
     feats = ["THI_", "dayLength", "t2m", "t2mmax", "lsm", "t2mmin",
              "rhmean", "dayOfYear", "hourOfDay"]
-    # Read the scaler
-    scaler_feats = joblib.load(args.scaler_feats)
-    scaler = joblib.load(args.scaler_target)
     # Path to directory where predictions are to be saved
     path_save = f"{args.pathSave}/{args.model}"
     os.makedirs(args.pathSave, exist_ok=True)

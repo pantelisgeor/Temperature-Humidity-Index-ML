@@ -4,7 +4,7 @@ Pantelis Georgiades, Theo Economou, Yiannis Proestos, Jose Araya, Jos Lelieveld 
 
 **Correspondence:** Pantelis Georgiades (p.georgiades@cyi.ac.cy)
 
-This repository contains the data and source code to produce the results presented in:
+This repository contains the data and source code to produce the datasets presented in:
 
 # ADD PAPER CITATION
 
