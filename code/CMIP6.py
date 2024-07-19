@@ -70,8 +70,8 @@ if __name__ == "__main__":
 
     # NEX-GDDP models used in this study
     models = ["ACCESS-ESM1-5", "CMCC-CM2-SR5", "EC-Earth3", "EC-Earth3-Veg-LR",
-            "FGOALS-g3", "GFDL-CM4", "GFDL-ESM4", "INM-CM4-8", "INM-CM5-0",
-            "MIROC6", "MRI-ESM2-0", "NorESM2-MM"]
+              "FGOALS-g3", "GFDL-CM4", "GFDL-ESM4", "INM-CM4-8", "INM-CM5-0",
+              "MIROC6", "MRI-ESM2-0", "NorESM2-MM"]
     # Variables needed
     vars_ = ["hurs", "tasmax", "tasmin", "tas"]
     # Scenarios

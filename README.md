@@ -46,4 +46,26 @@ chmod +x download_data.sh
 ./download_data.sh ~/Data_ERA5 ~/Data_CMIP6
 ```
 
-**Note** The bash script downloads and processes serveral of GBs of data. Make sure you have the appropriate compute and storage capabilities!
+**Note** The bash script downloads and processes several GBs of data. Make sure you have the appropriate compute and storage capabilities!
+
+#### Training the model
+
+After the data retrieval and processing procedure are finished, to train the XGBoost model the *train_model.sh* bash script is used. The bash script calls the python script to train the model and takes two positional arguments:
+
+1. The path to the ERA5 data directory.
+2. The path to the directory where the model states are stored.
+
+To execute the bash script, run the following commands:
+
+```
+chmod +x train_model.sh
+./train_model.sh ~/Data_ERA5 ~/models
+```
+
+## License
+
+All Python source code is made available under the MIT license. You can freely use and modify the code, without warranty, so long as you provide attributions to the authors. See 'LICENSE-MIT.txt' for the full license text.
+
+The manuscript text, figures and data/models produced as part of this research are available under the [Creative Commons Attribution 4.0 License (CC-BY)][cc-by]. See `LICENSE-CC-BY.txt` for the full license text.
+
+[cc-by]: https://creativecommons.org/licenses/by/4.0/
