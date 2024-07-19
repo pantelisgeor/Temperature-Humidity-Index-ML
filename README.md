@@ -30,6 +30,8 @@ You'll need a working Python 3 environment with the following libraries:
 3. Spatial data: xarray, netcdf4, rasterio
 4. Other libraries: tqdm, python-wget, cdsapi
 
+Note The code provided was developed and tested on a node equipped with 256 GB of RAM and 2 AMD EPYC Milan 64 core CPUs, running Linux.
+
 #### Data Retrieval
 
 The code is written exclusively in Python and uses a number of bash scripts to execute the workload. First, to retrieve the data needed *data.sh* is called. The bash script takes two positional arguments:
