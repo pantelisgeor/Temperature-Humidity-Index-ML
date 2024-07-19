@@ -62,6 +62,24 @@ chmod +x train_model.sh
 ./train_model.sh ~/Data_ERA5 ~/models
 ```
 
+#### Inference
+
+To use the trained model for temporally downscaling the GDDP-NEX-CMIP6 datasaets to hourly *Temperature Humidity Index* values, the *predict.sh* bash script is called. The bash script takes four positional arguments:
+
+1. Path to directory where the THI predictions are to be stored.
+2. Path to the directory where the trained model is stored (the last checkpoint will be automatically loaded from there).
+3. Path to the directory where CMIP6 data are stored.
+4. Path to directory used during training.
+
+To run the bash script execute the following commands:
+
+```
+chmod +x predich.sh
+./predict.sh ~/predictions ~/models/models/xgb_incremental ~/Data_CMIP6 ~/models
+```
+
+The bash script will loop through the 12 models used in the paper and two emission scenarios (SSP2-45 and SSP5-85) and make predictions in 5 year batches.
+
 ## License
 
 All Python source code is made available under the MIT license. You can freely use and modify the code, without warranty, so long as you provide attributions to the authors. See 'LICENSE-MIT.txt' for the full license text.
