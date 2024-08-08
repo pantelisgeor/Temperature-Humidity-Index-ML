@@ -6,7 +6,8 @@ Pantelis Georgiades, Theo Economou, Yiannis Proestos, Jose Araya, Jos Lelieveld 
 
 This repository contains the data and source code to produce the datasets presented in:
 
-# ADD PAPER CITATION
+## PAPER CITATION
+To be added when DOI is available.
 
 ## Abstract
 
