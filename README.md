@@ -1,4 +1,4 @@
-# The Application of Machine Learning Algorithms to the Global Forecast of Temperature-Humidity Index with High Temporal Resolution
+# Global Projections of Heat-Stress at High Temporal Resolution Using Machine Learning
 
 Pantelis Georgiades, Theo Economou, Yiannis Proestos, Jose Araya, Jos Lelieveld and Marco Neira
 
