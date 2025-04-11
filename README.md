@@ -7,7 +7,7 @@ Pantelis Georgiades, Theo Economou, Yiannis Proestos, Jose Araya, Jos Lelieveld 
 This repository contains the data and source code to produce the datasets presented in:
 
 ## PAPER CITATION
-To be added when DOI is available.
+Georgiades, P., Economou, T., Proestos, Y., Araya, J., Lelieveld, J., & Neira, M. (2025). Global projections of heat stress at high temporal resolution using machine learning. In Earth System Science Data (Vol. 17, Issue 3, pp. 1153–1171). Copernicus GmbH. https://doi.org/10.5194/essd-17-1153-2025
 
 ## Abstract
 
